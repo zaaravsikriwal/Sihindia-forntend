@@ -13,6 +13,7 @@ function App() {
         <Route path="/login" element={< LoginPage/>} />
         <Route path="/Asha/Dashboard" element={< ASHAWorkerDashboard/>} />
         <Route path="/Gov/Dashboard" element={< GovDashboard/>} />
+        {/* <Route path="/Gov/Dashboard" element={< GovDashboard/>} /> */}
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} /> */}
       </Routes>
